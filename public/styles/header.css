@@ -1,0 +1,67 @@
+/* header: */
+.curtain {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+.curtain-menu-ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+.curtain-menu-li a{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-weight: bold;
+    /* transition: all 0.4s ease; */
+}
+.curtain-menu-li a:hover{
+    color: #fe6565;
+}
+
+/* .menu_board a{
+    font-size: 18px;
+    color: #000000;
+    transition: all 0.4s ease;
+    opacity: 0.7;
+}
+.menu_board a:hover{
+    opacity: 1;
+    color: #000000;
+} */
+.header-menu-ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-bottom: 1px solid #cfcfcf;
+}
+.header-menu-li a{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #000000;
+    /* transition: all 0.4s ease; */
+}
+.header-menu-li a:hover{
+    color: #fe6565;
+}
+
+.number {
+    padding-right: 10px;
+    border-right: 1px solid #c7c7c7;
+}
+.email {
+    padding-left: 10px;
+}
+.number, .email{
+    cursor: pointer;
+    font-size: 16px;
+    color: #4b4b4b;
+    /* text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #000000; */
+}
+.number i, .email i {
+    padding-right: 3px;
+}

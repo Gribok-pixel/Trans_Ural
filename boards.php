@@ -5,8 +5,6 @@ require_once 'database/crud.php';
 ?>
 
 
-
-
 <div class="main">
     <div class="container mb-5">
         

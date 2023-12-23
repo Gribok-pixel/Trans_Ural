@@ -1,0 +1,51 @@
+/* Модальное окно */
+.modal-furniture-order {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 360px;
+    height: 360px;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 120;
+    padding: 20px;
+}
+.modal-furniture-order form {
+    padding-top: 20px;
+}
+.modal-furniture-order form input {
+    border-radius: 0px;
+    height: 40px;
+}
+.modal-furniture-order form button {
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 13px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: #000000;
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    border: 1px solid transparent;
+    margin-top: 30px;
+}
+.modal-furniture-order form button:hover {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000000;
+}
+.modal-order-close {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+}
+.modal-order-text {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+/* ====================================================================== */

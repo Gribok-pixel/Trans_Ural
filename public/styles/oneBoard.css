@@ -1,0 +1,38 @@
+/* Карточка board: */
+.card_item {
+    height: 100%;
+    /* border-radius: 5px; */
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 8px 10px 3px -1px rgba(201, 201, 201, 0.76); */
+    /* border: none; */
+}
+
+.list-group-my li {
+    border: none;
+    padding: 0;
+    /* height: 100%; */
+}
+/* .list-group-my li, .card-body {
+    background-color: #f1f1f1;
+} */
+
+.buy_btn {
+    border-radius: 0px 0px 5px 5px;
+    background-color: #777;
+}
+.buy_btn:hover {
+    background-color: #888;
+}
+.buy_btn a{
+    display: block;
+    font-size: 14px;
+}
+/* ====================================================================== */
+
+/* Страница одной карточки (board): */
+.input_one {
+    height: 60px;
+    outline: 0;
+    border-width: 0 0 1px;
+}
+/* ====================================================================== */

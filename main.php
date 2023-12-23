@@ -2,7 +2,7 @@
 
     <div class="">
         <div class="container-my">
-            <div class="slide" style="background-image: url('image/ideas/ideas1.jpg');">
+            <div class="slide" style="background-image: url(image/ideas/ideas8.jpg);">
                 <div class="slide-content">
                     <div class="slide-content-title">Оставьте отзыв о товаре в наших соц сетях и получите скидку!</div>
                     <div class="slide-content-text">
@@ -13,7 +13,7 @@
                     </div>
                 </div>
             </div>
-            <div class="slide" style="background-image: url('image/ideas/ideas2.jpg');">
+            <div class="slide" style="background-image: url(image/ideas/ideas6.jpg)">
                 <div class="slide-content">
                     <div class="slide-content-title">Распродажа - большие скидки до 50%</div>
                     <div class="slide-content-text">
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="slide active" style="background-image: url('image/ideas/ideas7.jpg');">
+            <div class="slide active" style="background-image: url(image/ideas/ideas7.jpg)">
                 <div class="slide-content">
                     <div class="slide-content-title">Распродажа - большие скидки до 50%</div>
                     <div class="slide-content-text">
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="slide" style="background-image: url('image/ideas/ideas6.jpg');">
+            <div class="slide" style="background-image: url(image/ideas/ideas1.jpg)">
                 <div class="slide-content">
                     <div class="slide-content-title">Оставьте отзыв о товаре в наших соц сетях и получите скидку!</div>
                     <div class="slide-content-text">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
             </div>
-            <div class="slide" style="background-image: url('image/ideas/ideas5.jpg');">
+            <div class="slide" style="background-image: url(image/ideas/ideas4.jpg)">
                 <div class="slide-content">
                     <div class="slide-content-title">Распродажа - большие скидки до 50%</div>
                     <div class="slide-content-text">
@@ -126,7 +126,7 @@
             
 
             <?php endforeach; ?>
-            <div class="col mt-4"></div>
+            <!-- <div class="col mt-4"></div> -->
         </div>
         
     </div>
@@ -213,7 +213,7 @@
                 </div>
                 
             <?php endforeach; ?>
-            <div class="col mt-4"></div>
+            <!-- <div class="col mt-4"></div> -->
         </div>
 
     </div>
@@ -283,48 +283,11 @@
                 </div>
                 
             <?php endforeach; ?>
-            <div class="col mt-4"></div>
+            <!-- <div class="col mt-4"></div> -->
         </div>
 
     </div>
 </div>
-
-<!-- <div class="container mt-5 mb-5">
-<h3>Идеи для вдохновения</h3>
-    <div class="ideas">
-
-        <div class="swiper swiper-ideas">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="ideas-img-container ideas"></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="ideas-img-container ideas1"></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="ideas-img-container ideas2"></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="ideas-img-container ideas3"></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="ideas-img-container ideas4"></div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="ideas-img-container ideas5"></div>
-                </div>
-            </div>
-            <div class="swiper-pagination"></div>
-
-            <div class="ideas-swiper-btn">
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-            <div class="swiper-scrollbar"></div>
-        </div>
-
-    </div>
-</div> -->
 
 <div class="container">
     <div class="last-news">

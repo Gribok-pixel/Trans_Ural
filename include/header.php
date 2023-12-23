@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">  
-    <link rel="stylesheet" href="../public/style.css">
+    <link rel="stylesheet" href="../public/styles/style.css">
     <title>Магазин Дерева</title>
 </head>
 <body>
@@ -85,7 +85,7 @@
 
             <ul class="nav header-menu-ul">
                 <li class="nav-item header-menu-li">
-                    <a class="" href="http://wooden-store">ГЛАВНАЯ</a>
+                    <a class="" href="/">ГЛАВНАЯ</a>
                 </li>
                 <li class="nav-item header-menu-li">
                     <a class="" aria-current="page" href="/boards">ДОСКА</a>

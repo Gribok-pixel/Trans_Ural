@@ -1,63 +1,50 @@
 <div class="col mt-4 card_one">
-                <div class="card_item-my card card_item" style="width: 36rem;">
-            
-                    <div class="furniture_slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="slider-line">
-                                        <img src="<?= $value['image_one']; ?>" class="card-img-top" alt="...">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="slider-line">
-                                        <img src="<?= $value['image_two']; ?>" class="card-img-top" alt="...">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="slider-line">
-                                        <img src="<?= $value['image_three']; ?>" class="card-img-top" alt="...">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="swiper-pagination"></div> -->
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-scrollbar"></div>
+    <div class="card_item-my card card_item" style="width: 36rem;">
+
+        <div class="furniture_slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-line">
+                            <img src="<?= $value['image_one']; ?>" class="card-img-top" alt="...">
                         </div>
                     </div>
-
-                    <div class="furniture_content">
-                        <div class="card-body my_color furniture_name">
-                            <h5 class="card-title"> <?= $value['name']; ?> </h5>
-                        </div>
-
-                        <ul class="list-group list-group-flush list-group-my">
-                            <li class="list-group-item my_color"> <div class=""> <?= $value['price']; ?> руб</div> </li>
-                            <li class="list-group-item my_color"> <div class=""> <?= $value['material']; ?> </div></li>
-                            <li class="list-group-item my_color description_li"> <div class=""> <?= $value['description']; ?> </div></li>
-                        </ul>
-
-                        <div class="card-body my_color">
-                            <a href="<?= "/" . $routs[1] . "/" . $value['id']; ?>" class="">Купить</a>
+                    <div class="swiper-slide">
+                        <div class="slider-line">
+                            <img src="<?= $value['image_two']; ?>" class="card-img-top" alt="...">
                         </div>
                     </div>
-
+                    <div class="swiper-slide">
+                        <div class="slider-line">
+                            <img src="<?= $value['image_three']; ?>" class="card-img-top" alt="...">
+                        </div>
+                    </div>
                 </div>
+                <!-- <div class="swiper-pagination"></div> -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+
+        <div class="furniture_content">
+            <div class="card-body my_color furniture_name">
+                <h5 class="card-title"> <?= $value['name']; ?> </h5>
             </div>
 
+            <ul class="list-group list-group-flush list-group-my">
+                <li class="list-group-item my_color"> <div class=""> <?= $value['price']; ?> руб</div> </li>
+                <li class="list-group-item my_color"> <div class=""> <?= $value['material']; ?> </div></li>
+                <li class="list-group-item my_color description_li"> <div class=""> <?= $value['description']; ?> </div></li>
+            </ul>
 
+            <div class="card-body my_color">
+                <a href="<?= "/" . $routs[1] . "/" . $value['id']; ?>" class="">Купить</a>
+            </div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
+    </div>
+</div>
 
 
 <div class="card card-mini new best online js-item js-offer-list-bf63c58920bab019a75c4a86504bdc96 card-product-147120 js-product-item js-product-item-147120" data-product-id="147120" data-product-code="489198" data-product-name="Стол письменный Chelsea,Montreal,Rimini серая 60х120" data-product-quantity="1" data-product-price="8120">
@@ -160,9 +147,6 @@
         </div>
     </div>
 </div>
-
-
-
 
 
 <div class="col mt-4 card_one">
